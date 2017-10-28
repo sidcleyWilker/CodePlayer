@@ -24,11 +24,13 @@
 		
 
 		<div id="bodyContainer">
-			<textarea id="htmlPanel" class="panel"> <p> Hello World </p> </textarea>
+			<textarea id="htmlPanel" class="panel"> <p id="paragraph"> Hello World </p> </textarea>
 			<textarea id="cssPanel" class="panel hidden"> p {color: blue;} </textarea>
-			<textarea id="javaScriptPanel" class="panel hidden"> alert("Hello World"); </textarea>
+			
+			<textarea id="javaScriptPanel" class="panel hidden"> document.getElementById("paragraph").innerHTML = "Hello Sidcley!"; 
+			</textarea>
 
-			<iframe id="output" class="panel"></iframe>
+			<iframe id="outputPanel" class="panel"></iframe>
 		</div>
 
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

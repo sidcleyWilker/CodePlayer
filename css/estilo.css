@@ -1,3 +1,52 @@
-body{
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	width: 100%;
+	height: 30px;
+	background-color: #EEEEEE;
+	padding: 5px;
+}
+
+#logo{
+	float: left;
+	font-weight: bold;
+	font-size: 120%;
+	padding: 3px 5px;
+}
+
+#buttonContainer {
+	width: 250px;
+	margin: 0 auto;
+}
+
+#html {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#output {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-right: 1px solid gray;
+}
+
+.toggleButton {
+	float: left;
+	border: 1px solid gray;
+	padding: 5px;
+	border-right: none;
+}
+
+.toggleButton:hover {
+	text-decoration: underline;
 	background-color: gray;
 }
+
+.active {
+	background-color: #E8F2FF;
+}
+
